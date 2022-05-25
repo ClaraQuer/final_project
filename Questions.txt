@@ -1,0 +1,3 @@
+- Is the order of the missions random for each player?
+- Could you please explain how the advance on the game works regarding missions and difficulty. 
+- What does it mean when a same mission has different levels of difficulty?
