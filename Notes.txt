@@ -8,9 +8,6 @@ RELATED TO:
 - Ads Watching
 - Virtual Spending
 
-
-
-
 CUSTOMER BEHAVIOUR
 
 BEST MISSIONS REAL:
@@ -26,4 +23,14 @@ BEST MISSION VIRTUAL:
 - 33
 - 32
 
-BEST MISSIONS ADS:
+GOAL:
+
+- OPTIMIZE CUSTOMER RETENTION
+
+THINGS TO SAY:
+
+- This is what happens when we try to extract the best features.
+- As Data Analysts, we can identify this that a model would miss. 
+- Not every dataset is suitable for modeling
+- Why are some missions so rare?
+
