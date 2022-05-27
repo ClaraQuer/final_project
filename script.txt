@@ -1,0 +1,102 @@
+MAIN TITLE:
+
+- Good Afternoon, my name is Clara and I am going to present: Jetpack Joyride: A journey through a userstory.
+
+- My goal here is to see if there is anything in the data that can help us improve the game's profitability. 
+
+- The Game: Jetpack Joyride, as my collegue Phillip has explained before.
+
+- Data provided by: Halfbrick, the awesome company responsible for this game. 
+
+- Special thanks for the oportunity of using real data.
+
+FOCUS POINTS:
+
+- To increrase the game's profitability I have identified 3 focus points:
+
+	REAL PURCHASES (IN-APP)
+	VIRTUAL PURCHASES (VIRTUAL GAME CURRENCY)
+	ADS WATCHED
+	USER'S RATINGS, OBTAINED BY SCRAPING Google Play's Revew Site. 
+
+MONTHLY EVOLUTION:
+
+- First of all, quick walk through the data. 
+
+- This is the evolution of my targets per month:
+
+	REAL: Total spent per month -> it seems to begoing down
+	RATIO: Total spent per user -> it seems to be going up!
+
+There are less users in the latest months but they are spending more. 
+
+
+ADS AND VIRTUAL:
+
+As you can see, we have a similar behaviour with the ads watched and virtual currency spent.
+
+RATINGS:
+
+And the average of the ratings has not changed through time, being always above 4. 
+
+Is this difference between the number of players and the ratio due to customer loyalty? 
+
+Seems it could be, would be interesting to know the installation date of the game.
+
+If this is true, it would bring us to the most obvious answer: We need to increrasy customer loyalty.
+
+
+MODEL AND INFLUENCES:
+
+But, what does XGBOOSTER say about it? Which are the most influential features when trying to predict a client's real expenses?
+
+Here I have looked for the 5 most important predictors:
+
+	FIRST TWO have to do basically with how in the game the customer is. How much has he advanced both in run distance and missions. 
+	In the graphs we can see how all three targets increrase with the mission number.
+
+	THIRD, the pseudo_id, so, basically, the player itself. Some players are just more inclined to making in-app purchases than others. It would be very interesting to 	have actual data about the players to be able to build a profile for consuming players. 
+
+	AND LAST but no least: The ads they watch and how much they spend in the game. As I said before, this two have similar behaviours, so it looks like players who tend 	to watch ads to get virtual currency are more inclined to eventually spend real money on the game. 
+
+
+MISSION COUNT:
+
+- Another interesting thing to look at is the huge difference in the mission count. These are the amount of players who have gotten each mission. 
+- Check the scaling difference. 
+- Why do players not get these missions? Does it even matter?
+
+EXPENSES PER MISSION ID:
+
+- Well, turns out that if we look at the average expenses for each of the mission_ids, two of the missions wih the highest average are not even in the most played missions, with only 83 and 52 counts. 
+- The color indicates the mission difficulty, which helps us visualize how it has very little influence on the total purchases. 
+- For the other ones it makes a lot of sense that they don't have any purchases since their counts are increrdibly low. You can't spend money on a mission you don't get.
+- So, maybe altering the randomizing algorithm to include mission 9 and 13 more often could make the overall real purchases go up. 
+
+ADS PER MISSION ID:
+
+- Here we also see how the behaviour of the ads and virtual currency is also very similar, so it strernghens the theory of players watching ads to get virtual currency. 
+
+CONCLUSIONS:
+
+- So in conclusion, we can say that the main factor to be optimized would be customer loyalty. Try to find the factors that make this players stay in the game, as my collegue Romeo will try to do in his presentation. 
+
+- Another interesting thing would be prioritizing missions that have high spending averages for players to get them more. 
+
+- As per the analysis itself, I think a great conclusion would be that not every dataset is suitable for modeling, and this is a grerat example of that. We have been able to pick on different interesting facts through graphs that the model actually missed, so we can safely say data analysis is more than building models.
+
+IMPROVEMENTS:
+
+- Nevertheless, I also think it would have been very interesting to have actual data about the different players, so that we would have been able to build a user profile based on their customer behaviour. I believe that would have allowed us to get better predictions on customer expenditure. 
+
+THE END
+
+- This was all, thank you very much for listening
+
+QUESTIONS
+
+- And I will gladly answer any questions you may have
+
+ 
+
+

@@ -1,0 +1,16 @@
+,Rank,Column_name
+0,1,pseudo_id
+1,11,mission_id
+2,8,mission_difficulty
+3,10,mission_stars_collected
+4,7,day_auto_increment
+5,5,lifetime_played_runs
+6,1,max_run_distance
+7,6,total_purchases_virtual
+8,2,total_ads_watched
+9,4,days_played_in_month
+10,9,virtual_currency_balance
+11,3,target_max_day_played
+12,1,mission_played
+13,1,sum_ads
+14,1,sum_purchases_virtual

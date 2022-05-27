@@ -31,6 +31,7 @@ THINGS TO SAY:
 
 - This is what happens when we try to extract the best features.
 - As Data Analysts, we can identify this that a model would miss. 
+- Ads watched and virtual purchases behave in a very similar way. Seems to tell us people watch ads to earn game currency.
 - Not every dataset is suitable for modeling
 - Why are some missions so rare?
 
